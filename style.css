@@ -1,52 +1,49 @@
-
-body{
-display: flex;
-justify-content: center;
-background:linear-gradient(orange) ;
-background-size:cover ;
-
+body {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: linear-gradient(orange);
+  background-size: cover;
 }
-.box{
-    height: 300px;
-    width: 300px;
-    background:linear-gradient(green,red,black);
-    margin-top: 90px;
-    transform: rotate(0deg);
-    transition: transform 3s;
-    animation-timing-function: linear;
-    margin-left: 150px;
-    border-radius:40px 90px;
-    text-align: center;
-    padding: 20px;
-    overflow: hidden;
+.box {
+  height: 300px;
+  width: 300px;
+  background: linear-gradient(green, red, black);
+  /* margin-top: 90px; */
+  transform: rotate(0deg);
+  transition: transform 3s;
+  animation-timing-function: linear;
+  /* margin-left: 150px; */
+  border-radius: 40px 90px;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
 }
-.box:hover{
-    transform: scale(1.3);
+.box:hover {
+  transform: scale(1.3);
 }
- .box h3{
-  transform:rotate(0deg) ;
-   transition: transform 3s;
-   color: beige;
+.box h3 {
+  transform: rotate(0deg);
+  transition: transform 3s;
+  color: beige;
 }
-.box h3:hover{
-  transform:scale(1.9) ;
+.box h3:hover {
+  transform: scale(1.9);
 }
-.box p{
-  transform:rotate(0deg) ;
-   transition: transform 3s;
-   color: beige;
+.box p {
+  transform: rotate(0deg);
+  transition: transform 3s;
+  color: beige;
 }
-.box p:hover{
+.box p:hover {
   transform: scale(1.2);
 }
-.box h1{
-transform:rotate(0deg);
-transition: transform 3s;
-color: rgb(236, 16, 181);
-
+.box h1 {
+  transform: rotate(0deg);
+  transition: transform 3s;
+  color: rgb(236, 16, 181);
 }
-.box h1:hover{
+.box h1:hover {
   transform: scale(1.2);
 }
-
-
